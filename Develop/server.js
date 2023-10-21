@@ -27,6 +27,7 @@ app.get('/api/notes', (req, res) => {
     return res.sendFile(path.json(__dirname, 'db/db.json'));
 })
 
-app.post('/api/notes', (req, res))
+// app.post('/api/notes', (req, res))
+
 app.listen(3000, () => console.log(`Server listening at http://localhost:${PORT}`)
 );
